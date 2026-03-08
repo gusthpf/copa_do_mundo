@@ -3,7 +3,9 @@ Análise de Dados de Futebol com SQL ⚽📊
 Descrição 📝
 Este repositório contém scripts SQL para análise de dados abrangentes relacionados ao futebol, cobrindo desde o ranking mundial da FIFA até estatísticas detalhadas de partidas e históricos da Copa do Mundo. O objetivo é fornecer insights valiosos sobre o desempenho de seleções, confederações e o legado dos torneios mais importantes do futebol.
 
-Scripts SQL Disponíveis 📂
+Datasets disponíveis na pasta dataset 📂
+
+Scripts SQL Disponíveis na pasta Scripts📂
 
 Script-3.sql - Análise de Ranking FIFA 🏆🌍
 
