@@ -4,7 +4,9 @@ Descrição 📝
 Este repositório contém scripts SQL para análise de dados abrangentes relacionados ao futebol, cobrindo desde o ranking mundial da FIFA até estatísticas detalhadas de partidas e históricos da Copa do Mundo. O objetivo é fornecer insights valiosos sobre o desempenho de seleções, confederações e o legado dos torneios mais importantes do futebol.
 
 Scripts SQL Disponíveis 📂
+
 Script-3.sql - Análise de Ranking FIFA 🏆🌍
+
 Este script foca na análise dos dados de ranking da FIFA, explorando diversas facetas do desempenho das seleções ao longo do tempo.
 
 Principais Análises:
@@ -25,6 +27,7 @@ WHERE association LIKE '%CONMEBOL%'
 LIMIT 5;
 ```
 Script-4.sql - Análise de Partidas da Copa do Mundo 🏟️⚽
+
 Este script se dedica à análise de dados de partidas da Copa do Mundo, oferecendo uma visão estatística e histórica dos torneios.
 
 Principais Análises:
@@ -47,6 +50,7 @@ GROUP BY Year
 ORDER BY total_gols DESC;
 ```
 Script-5.sql - Análise Histórica da Copa do Mundo 🏆📜
+
 Este script aprofunda a análise histórica da Copa do Mundo, focando em campeões, vices, artilheiros e outros marcos importantes do torneio.
 
 Principais Análises:
@@ -71,6 +75,7 @@ GROUP BY 1
 ORDER BY 2 DESC;
 ```
 Fontes de Dados 💾
+
 Este projeto utiliza as seguintes bases de dados:
 
 •	fifa_ranking_2022-10-06.csv (para a tabela fifa_ranking)
@@ -78,6 +83,7 @@ Este projeto utiliza as seguintes bases de dados:
 •	world_cup (tabela derivada de um dataset histórico da Copa do Mundo)
 
 Como Usar 🚀
+
 Para utilizar estes scripts, siga os passos abaixo:
 
 1	Certifique-se de ter um banco de dados com as tabelas fifa_ranking, matches e world_cup populadas com os dados relevantes, preferencialmente importados dos arquivos .csv mencionados.
@@ -85,10 +91,12 @@ Para utilizar estes scripts, siga os passos abaixo:
 3	Execute as consultas desejadas para obter os resultados das análises.
 
 Tecnologias Utilizadas 🛠️
+
 •	SQL: Linguagem de consulta estruturada para manipulação e análise de dados. 🛢
 •	DBeaver (versão 26): Cliente SQL universal e ferramenta de gerenciamento de banco de dados utilizada para desenvolver e executar estes scripts.
 
 Licença 📄
+
 Este projeto está sob licença pública, especificamente a Licença Pública Geral (GPL). Sinta-se à vontade para usar, modificar e distribuir o código conforme sua necessidade. 
 
 
