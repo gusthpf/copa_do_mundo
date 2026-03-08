@@ -18,11 +18,12 @@ Principais Análises:
 Exemplo de Consulta:
 
 -- Listando as 5 melhores seleções da CONMEBOL (América do Sul)
+```sql
 SELECT team, association, rank, points
 FROM fifa_ranking 
 WHERE association LIKE '%CONMEBOL%'
 LIMIT 5;
-
+```
 Script-4.sql - Análise de Partidas da Copa do Mundo 🏟️⚽
 Este script se dedica à análise de dados de partidas da Copa do Mundo, oferecendo uma visão estatística e histórica dos torneios.
 
@@ -39,11 +40,12 @@ Principais Análises:
 Exemplo de Consulta:
 
 -- Total de gols por Copa do Mundo
+```sql
 SELECT Year, SUM(home_score + away_score) as total_gols 
 FROM matches 
 GROUP BY Year 
 ORDER BY total_gols DESC;
-
+```
 Script-5.sql - Análise Histórica da Copa do Mundo 🏆📜
 Este script aprofunda a análise histórica da Copa do Mundo, focando em campeões, vices, artilheiros e outros marcos importantes do torneio.
 
@@ -62,11 +64,12 @@ Principais Análises:
 Exemplo de Consulta:
 
 -- Times que ganharam mais vezes a Copa do Mundo
+```sql
 SELECT champion, COUNT(*) AS titulos
 FROM world_cup
 GROUP BY 1
 ORDER BY 2 DESC;
-
+```
 Fontes de Dados 💾
 Este projeto utiliza as seguintes bases de dados:
 
